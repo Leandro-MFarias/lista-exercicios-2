@@ -15,6 +15,7 @@ function orderedList(list) {
   let newArray = [...list]
   let ordered = newArray.sort((a, b) => a.preco - b.preco)
   let names = ordered.map(item => item.nome)
+  
   return names
 }
 
