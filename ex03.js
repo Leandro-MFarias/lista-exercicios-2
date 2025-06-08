@@ -4,8 +4,6 @@
   todas as palavras únicas e exibi-las em um array.
 */
 
-// REGEX
-
 let str = "olá olá mundo mundo";
 let words = str.split(" ");
 let unique = [];

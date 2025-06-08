@@ -17,17 +17,3 @@ while (answer != numRandom) {
 
   counter++;
 }
-
-// Function para auxiliar e confirmar que o 100 e 1 são inclusivo.   
-
-// function verificao() {
-//   let numRandom = Math.floor(Math.random() * 100) + 1;
-//   if (numRandom === 100) {
-//     console.log("Terminou: " + numRandom)
-//   } else {
-//     console.log("Errou: " + numRandom);
-//     returnNum()
-//   }
-// }
-
-// returnNum()

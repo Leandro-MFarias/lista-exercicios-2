@@ -6,9 +6,9 @@
 
 function fatorial(n) {
   if (n === 0) return 1;
-  if (n < 0) throw new Error("ERROOOOO");
+  if (n < 0) throw new Error("ERROO");
 
   return n * fatorial(n - 1);
 }
 
-console.log(fatorial(1));
+console.log(fatorial(5));
