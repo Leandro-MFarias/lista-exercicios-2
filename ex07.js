@@ -5,25 +5,17 @@
   crescente, usando map, sort.
 */
 
-function nomesOrdenadosPorPreco(produtos) {
-  let copia = produtos.slice()
-  copia.sort((a, b) => a.preco - b.preco)
-  
-  let nomes = copia.map(prod => prod.name)
-  return nomes
+const produtos = [
+  {nome: "Teclado", preco: 1000},
+  {nome: "PC", preco: 3000},
+  {nome: "Jogo", preco: 300},
+]
+
+function orderedList(list) {
+  let newArray = [...list]
+  let ordered = newArray.sort((a, b) => a.preco - b.preco)
+  let names = ordered.map(item => item.nome)
+  return names
 }
 
-let produtos = [
-  {
-    nome: "Celular",
-    preco: 15,
-  },
-  {
-    nome: "PC",
-    preco: 1500,
-  },
-  {
-    nome: "Jogo",
-    preco: 100,
-  },
-]
+console.log(orderedList(produtos));
