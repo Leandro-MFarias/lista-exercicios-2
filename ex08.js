@@ -7,8 +7,14 @@
 const vendas = [
   { client: "Leandro", total: 10 },
   { client: "Joe", total: 20 },
-  { client: "Doe", total: 40 },
+  { client: "Doe", total: 30 },
+  { client: "Leandro", total: 30 },
 ];
 
-const totalVendas = vendas.reduce((acc, curr) => acc + curr.total, 0)
-console.log("reduce", totalVendas);
+const somaTotal = vendas.reduce((acc, curr) => {
+  acc[curr.client] ? acc[curr.client] += curr.total : acc[curr.client] = curr.total;
+
+  return acc
+}, {});
+
+console.log(somaTotal);
