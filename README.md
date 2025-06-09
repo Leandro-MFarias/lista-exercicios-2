@@ -1,5 +1,11 @@
 <h1 align="center">📜 Lista de Exercícios 2 - +PraTi</h1>
 
+### 👨🏼‍💻 Temas abordados nessa lista
+
+- Estruturas de Controle Avançadas ✅
+- Funções e Recursão ✅
+- Arrays e Objetos Complexos ✅
+
 ### 1. Clone o repositório e Instale as dependências
 
 ```bash
