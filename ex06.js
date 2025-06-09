@@ -37,17 +37,17 @@ const memo = memoize((n) => {
   return n * memo(n - 1);
 });
 
-console.time("MEMO");
+console.time("MEMO Fatorial");
 console.log("Memo: ", memo(150));
-console.timeEnd("MEMO");
+console.timeEnd("MEMO Fatorial");
 
-console.time("Recursivo");
+console.time("Recursivo Fatorial");
 console.log("Recursivo: ", fatorial(150));
-console.timeEnd("Recursivo");
+console.timeEnd("Recursivo Fatorial");
 
-console.time("MEMO 2");
+console.time("MEMO 2 Fatorial");
 console.log("Memo2: ", memo(150));
-console.timeEnd("MEMO 2");
+console.timeEnd("MEMO 2 Fatorial");
 
 console.log("\n");
 /////////////////////////////////////////////////////////////////

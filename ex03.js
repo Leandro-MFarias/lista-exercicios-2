@@ -21,4 +21,5 @@ for (let i = 0; i < words.length; i++) {
     unique.push(words[i])
   }
 }
+
 console.log(unique);
